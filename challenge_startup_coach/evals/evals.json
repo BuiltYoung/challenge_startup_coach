@@ -1,0 +1,23 @@
+{
+  "skill_name": "challenge_startup_coach",
+  "evals": [
+    {
+      "id": 1,
+      "name": "evaluate-a-weak-idea",
+      "prompt": "One of my students wants to build an AI app that helps students study better. She's in grade 11 in Toronto and wants to enter a competition this year. Is this good enough?",
+      "expected_output": "Honest critique naming the specificity gap, anchored in a comparable finalist project, plus a concrete next step and a competition recommendation with dates."
+    },
+    {
+      "id": 2,
+      "name": "student-with-no-idea",
+      "prompt": "I'm running a 90-minute session on Saturday for eight teenagers who have never started anything. None of them have an idea. What do I actually do with them?",
+      "expected_output": "A runnable session plan using one extraction method, with real precedent examples and a closing task, not generic brainstorming advice."
+    },
+    {
+      "id": 3,
+      "name": "competition-routing",
+      "prompt": "My kid built a working prototype of a device that detects mould in apartment walls and tested it in six units. Which competition should he enter and when does he need to start?",
+      "expected_output": "Routes to Conrad on validation grounds, cites the relevant deadline, flags the fee and the January collision, and notes he could enter more than one."
+    }
+  ]
+}
